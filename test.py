@@ -1,6 +1,6 @@
-from time import sleep
+import time
 print("first")
 while True:
   print("hello world")
-  sleep(10)
+  time.sleep(10)
 
