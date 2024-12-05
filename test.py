@@ -1,6 +1,6 @@
 import time
-import os
 
-current_directory = os.getcwd()
-print(current_directory)
+i = i + 1
+
+print(i)
 
