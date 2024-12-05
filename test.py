@@ -1,5 +1,6 @@
 import time
 print("first")
-for i in range(10):
-  print(i)
+i = 0
+print(i)
+i = i + 1
 
