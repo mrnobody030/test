@@ -1,14 +1,9 @@
-import time
-import os
 
-file1 = open("file1.txt", "r").read()
+def test():
+  print("hello world")
 
-file1 = int(file1)
-
-file1 = file1 + 1
-
-print(file1)
-
-file2 =open("file1.txt", "w").write(f"{file1}")
+if __name__ == "__main__":
+  print("first")
+  test()
 
 
