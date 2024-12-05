@@ -1,15 +1,14 @@
 import time
 import os
 
-i = os.getenv("test")
+file1 = open("file1.txt", "r").read()
 
-i = int(i)
+file1 = int(file1)
 
-i = i +1 
+file1 = file1 + 1
 
-print(i)
+print(file1)
 
-with open(".env", "w") as file:
-  file.write(f'test="{i}"\n')
+file2 =open("file1.txt", "w").write(f"{file1}")
 
 
